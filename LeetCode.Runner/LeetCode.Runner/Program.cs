@@ -6,8 +6,8 @@ using System.Linq;
 
 //Console.WriteLine(ContainerWithMostWater.MaxArea(new int[] { 1, 4, 6, 5, 3, 7, 6, 2 }));
 //TwoSum.TwoSumFunc([3,2,4], 6).ToList().ForEach((x) => Console.Write(x.ToString()));
-
-TwoSum2.TwoSum([2, 7, 11, 15], 9).ToList().ForEach((x) => Console.Write(x.ToString()));
+//_15ThreeSum.ThreeSum([-1, 0, 1, 2, -1, -4]).ToList().ForEach((x) => x.ToList().ForEach(y => Console.Write(y.ToString() + ",")));
+Console.WriteLine(_ThreeSumClosest.ThreeSumClosest([10, 20, 30, 40, 50, 60, 70, 80, 90], 1));
 Console.ReadLine();
 
 
