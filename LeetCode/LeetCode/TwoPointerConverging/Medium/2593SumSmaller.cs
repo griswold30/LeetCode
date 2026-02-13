@@ -1,4 +1,4 @@
-﻿namespace LeetCode.Medium
+﻿namespace LeetCode.TwoPointerConverging.Medium
 {
     public static class _2593SumSmaller
     {

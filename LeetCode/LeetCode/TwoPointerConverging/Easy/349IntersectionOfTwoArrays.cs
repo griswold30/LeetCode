@@ -1,4 +1,4 @@
-﻿namespace LeetCode.Easy
+﻿namespace LeetCode.TwoPointerConverging.Easy
 {
     public  class _349IntersectionOfTwoArrays
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
 
-namespace LeetCode.Medium
+namespace LeetCode.TwoPointerConverging.Medium
 {
     public static class _ThreeSumClosest
     {
