@@ -2,7 +2,6 @@
 {
     public static class _881BoatsToSavePeople
     {
-
         //O(N log N) Time
         //O(1) Space
         public static int NumRescueBoatsOptimized(int[] people, int limit)
