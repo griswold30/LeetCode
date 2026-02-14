@@ -1,5 +1,5 @@
 ﻿using LeetCode.Easy;
-using LeetCode.TwoPointerConverging.Medium;
+using LeetCode.TwoPointer.TwoPointerConverging.Medium;
 using System.Linq;
 
 // See https://aka.ms/new-console-template for more information

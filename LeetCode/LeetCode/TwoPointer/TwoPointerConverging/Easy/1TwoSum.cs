@@ -1,4 +1,4 @@
-﻿namespace LeetCode.TwoPointerConverging.Easy
+﻿namespace LeetCode.TwoPointer.TwoPointerConverging.Easy
 {
     public static class TwoSum
     {
