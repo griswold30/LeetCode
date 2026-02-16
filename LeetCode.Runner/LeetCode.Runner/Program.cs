@@ -1,7 +1,8 @@
 ﻿using LeetCode.TwoPointer.FastSlow.Easy;
+using LeetCode.TwoPointer.InPlaceArrayMutation.Easy;
+using LeetCode.TwoPointer.InPlaceArrayMutation.Medium;
 using LeetCode.TwoPointer.TwoPointerConverging.Medium;
 using System.Linq;
-using LeetCode.TwoPointer.InPlaceArrayMutation.Easy;
 
 // See https://aka.ms/new-console-template for more information
 
@@ -14,6 +15,7 @@ using LeetCode.TwoPointer.InPlaceArrayMutation.Easy;
 //Console.WriteLine(_202HappyNumber.IsHappy(3));
 //Console.WriteLine(_392IsSubSequence.IsSubsequence("abc", "ahbgdc"));
 //Console.WriteLine(_26RemoveDuplicatesFromSortedArray.RemoveDuplicates([1, 1, 2]).ToString());
-Console.WriteLine(_27RemoveElement.RemoveElement([1], 1));
+//Console.WriteLine(_27RemoveElement.RemoveElement([1], 1));
+Console.WriteLine(_80RemoveDuplicatesFromSortedArray2.RemoveDuplicates([1, 1, 1, 2, 2, 3]));
 Console.ReadLine();
 
