@@ -10,6 +10,7 @@ using System.Linq;
 //Console.WriteLine(_ThreeSumClosest.ThreeSumClosest([10, 20, 30, 40, 50, 60, 70, 80, 90], 1));
 //_977SquaresOfSortedArray.SortedSquares([-4, -1, 0, 3, 10]).ToList().ForEach(y => Console.Write(y.ToString() + ","));
 //Console.WriteLine(_2593SumSmaller.ThreeSumSmaller([-2, 0, 1, 3], 2));
-Console.WriteLine(_202HappyNumber.IsHappy(3));
+//Console.WriteLine(_202HappyNumber.IsHappy(3));
+Console.WriteLine(_392IsSubSequence.IsSubsequence("abc", "ahbgdc"));
 Console.ReadLine();
 
