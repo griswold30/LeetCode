@@ -1,6 +1,7 @@
 ﻿using LeetCode.TwoPointer.FastSlow.Easy;
 using LeetCode.TwoPointer.TwoPointerConverging.Medium;
 using System.Linq;
+using LeetCode.TwoPointer.InPlaceArrayMutation.Easy;
 
 // See https://aka.ms/new-console-template for more information
 
@@ -11,6 +12,7 @@ using System.Linq;
 //_977SquaresOfSortedArray.SortedSquares([-4, -1, 0, 3, 10]).ToList().ForEach(y => Console.Write(y.ToString() + ","));
 //Console.WriteLine(_2593SumSmaller.ThreeSumSmaller([-2, 0, 1, 3], 2));
 //Console.WriteLine(_202HappyNumber.IsHappy(3));
-Console.WriteLine(_392IsSubSequence.IsSubsequence("abc", "ahbgdc"));
+//Console.WriteLine(_392IsSubSequence.IsSubsequence("abc", "ahbgdc"));
+Console.WriteLine(_26RemoveDuplicatesFromSortedArray.RemoveDuplicates([1, 1, 2]).ToString());
 Console.ReadLine();
 

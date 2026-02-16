@@ -21,4 +21,5 @@ namespace LeetCode.TwoPointer.FixedSeparation.Easy
 
             return second;
         }
+    }
 }
