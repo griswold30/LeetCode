@@ -13,6 +13,7 @@ using LeetCode.TwoPointer.InPlaceArrayMutation.Easy;
 //Console.WriteLine(_2593SumSmaller.ThreeSumSmaller([-2, 0, 1, 3], 2));
 //Console.WriteLine(_202HappyNumber.IsHappy(3));
 //Console.WriteLine(_392IsSubSequence.IsSubsequence("abc", "ahbgdc"));
-Console.WriteLine(_26RemoveDuplicatesFromSortedArray.RemoveDuplicates([1, 1, 2]).ToString());
+//Console.WriteLine(_26RemoveDuplicatesFromSortedArray.RemoveDuplicates([1, 1, 2]).ToString());
+Console.WriteLine(_27RemoveElement.RemoveElement([1], 1));
 Console.ReadLine();
 
