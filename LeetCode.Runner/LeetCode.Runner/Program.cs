@@ -1,4 +1,5 @@
-﻿using LeetCode.TwoPointer.FastSlow.Easy;
+﻿using LeetCode.HashTable.Medium;
+using LeetCode.TwoPointer.FastSlow.Easy;
 using LeetCode.TwoPointer.InPlaceArrayMutation.Easy;
 using LeetCode.TwoPointer.InPlaceArrayMutation.Medium;
 using LeetCode.TwoPointer.TwoPointerConverging.Medium;
@@ -16,6 +17,17 @@ using System.Linq;
 //Console.WriteLine(_392IsSubSequence.IsSubsequence("abc", "ahbgdc"));
 //Console.WriteLine(_26RemoveDuplicatesFromSortedArray.RemoveDuplicates([1, 1, 2]).ToString());
 //Console.WriteLine(_27RemoveElement.RemoveElement([1], 1));
-Console.WriteLine(_80RemoveDuplicatesFromSortedArray2.RemoveDuplicates([1, 1, 1, 2, 2, 3]));
+//Console.WriteLine(_80RemoveDuplicatesFromSortedArray2.RemoveDuplicates([1, 1, 1, 2, 2, 3]));
+
+_146LruCache cache = new _146LruCache(2);
+cache.Put(1, 1);
+cache.Put(2, 2);
+Console.WriteLine(cache.Get(1));
+cache.Put(3, 3);
+Console.WriteLine(cache.Get(2));
+cache.Put(4, 4);
+Console.WriteLine(cache.Get(1));
+Console.WriteLine(cache.Get(3));
+Console.WriteLine(cache.Get(4));
 Console.ReadLine();
 
